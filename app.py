@@ -125,6 +125,9 @@ TRANSLATIONS = {
         "field_name": "Ism familiya",
         "field_phone": "Telefon raqam",
         "field_email": "Email",
+        "field_login_id": "Email yoki ism",
+        "field_login_id_placeholder": "email@misol.uz yoki ismingiz",
+        "err_ambiguous_name": "Shu ism bilan bir nechta foydalanuvchi ro'yxatdan o'tgan. Iltimos, o'rniga emailingizni kiriting.",
         "field_password": "Parol",
         "field_password_confirm": "Parolni takrorlang",
         "btn_submit_register": "Ro'yxatdan o'tish",
@@ -248,6 +251,7 @@ TRANSLATIONS = {
         "cert_line_lang": "✅ {name} (til kursi) — tugatilgan",
         "no_certificates": "Hali hech qanday kursni to'liq tugatmagansiz.",
         "settings_title": "⚙️ Sozlamalar",
+        "settings_no_account_note": "Bu bo'lim shaxsiy hisob egalari uchun mo'ljallangan. Sizda (admin/asoschi sifatida) shaxsiy profil mavjud emas.",
         "save_btn": "Saqlash",
         "profile_updated": "Profil yangilandi!",
         "change_password_heading": "🔑 Parolni almashtirish",
@@ -322,6 +326,20 @@ TRANSLATIONS = {
         "from_admin_client": "🏢 Admin/Mijoz",
         "from_client_admin": "🏢 Mijoz / Admin",
         "you_label": "👤 Siz",
+        "application_status_label": "Ariza holati",
+        "status_sent": "🟡 Yuborilgan",
+        "status_accepted": "🟢 Qabul qilindi (ishga olindi)",
+        "status_rejected": "🔴 Rad etildi",
+        "update_status_btn": "Holatni yangilash",
+        "status_change_notification": "Arizangiz holati yangilandi: {status}",
+        "status_change_system_msg": "Ariza holati yangilandi: {status}",
+        "stat_certificates": "Berilgan sertifikatlar",
+        "stat_applications": "Jami arizalar",
+        "stat_accepted": "🟢 Qabul qilindi",
+        "stat_rejected": "🔴 Rad etildi",
+        "stat_pending": "🟡 Kutilmoqda",
+        "admin_extra_stats_heading": "Umumiy ko'rsatkichlar",
+        "founder_browse_heading": "📖 Platformani ko'rish",
     },
     "en": {
         "lang_select": "Select language",
@@ -340,6 +358,9 @@ TRANSLATIONS = {
         "field_name": "Full name",
         "field_phone": "Phone number",
         "field_email": "Email",
+        "field_login_id": "Email or name",
+        "field_login_id_placeholder": "email@example.com or your name",
+        "err_ambiguous_name": "Multiple users are registered with this name. Please enter your email instead.",
         "field_password": "Password",
         "field_password_confirm": "Confirm password",
         "btn_submit_register": "Sign up",
@@ -463,6 +484,7 @@ TRANSLATIONS = {
         "cert_line_lang": "✅ {name} (language course) — completed",
         "no_certificates": "You haven't fully completed any course yet.",
         "settings_title": "⚙️ Settings",
+        "settings_no_account_note": "This section is for personal account holders. As an admin/founder, you don't have a personal profile.",
         "save_btn": "Save",
         "profile_updated": "Profile updated!",
         "change_password_heading": "🔑 Change password",
@@ -537,6 +559,20 @@ TRANSLATIONS = {
         "from_admin_client": "🏢 Admin/Client",
         "from_client_admin": "🏢 Client / Admin",
         "you_label": "👤 You",
+        "application_status_label": "Application status",
+        "status_sent": "🟡 Submitted",
+        "status_accepted": "🟢 Accepted (hired)",
+        "status_rejected": "🔴 Rejected",
+        "update_status_btn": "Update status",
+        "status_change_notification": "Your application status was updated: {status}",
+        "status_change_system_msg": "Application status updated: {status}",
+        "stat_certificates": "Certificates awarded",
+        "stat_applications": "Total applications",
+        "stat_accepted": "🟢 Accepted",
+        "stat_rejected": "🔴 Rejected",
+        "stat_pending": "🟡 Pending",
+        "admin_extra_stats_heading": "Overall metrics",
+        "founder_browse_heading": "📖 Browse the platform",
     },
     "ru": {
         "lang_select": "Выберите язык",
@@ -555,6 +591,9 @@ TRANSLATIONS = {
         "field_name": "Имя и фамилия",
         "field_phone": "Номер телефона",
         "field_email": "Email",
+        "field_login_id": "Email или имя",
+        "field_login_id_placeholder": "email@example.com или ваше имя",
+        "err_ambiguous_name": "С этим именем зарегистрировано несколько пользователей. Пожалуйста, введите свой email.",
         "field_password": "Пароль",
         "field_password_confirm": "Подтвердите пароль",
         "btn_submit_register": "Зарегистрироваться",
@@ -678,6 +717,7 @@ TRANSLATIONS = {
         "cert_line_lang": "✅ {name} (языковой курс) — завершено",
         "no_certificates": "Вы пока не завершили ни один курс полностью.",
         "settings_title": "⚙️ Настройки",
+        "settings_no_account_note": "Этот раздел предназначен для владельцев личного аккаунта. У вас (как у администратора/основателя) нет личного профиля.",
         "save_btn": "Сохранить",
         "profile_updated": "Профиль обновлён!",
         "change_password_heading": "🔑 Смена пароля",
@@ -752,6 +792,20 @@ TRANSLATIONS = {
         "from_admin_client": "🏢 Администратор/Клиент",
         "from_client_admin": "🏢 Клиент / Администратор",
         "you_label": "👤 Вы",
+        "application_status_label": "Статус заявки",
+        "status_sent": "🟡 Отправлено",
+        "status_accepted": "🟢 Принято (нанят)",
+        "status_rejected": "🔴 Отклонено",
+        "update_status_btn": "Обновить статус",
+        "status_change_notification": "Статус вашей заявки обновлён: {status}",
+        "status_change_system_msg": "Статус заявки обновлён: {status}",
+        "stat_certificates": "Выдано сертификатов",
+        "stat_applications": "Всего заявок",
+        "stat_accepted": "🟢 Принято",
+        "stat_rejected": "🔴 Отклонено",
+        "stat_pending": "🟡 В ожидании",
+        "admin_extra_stats_heading": "Общие показатели",
+        "founder_browse_heading": "📖 Просмотр платформы",
     },
 }
 
@@ -1105,6 +1159,30 @@ def send_message(thread_id, sender, text):
     threads[thread_id] = msgs
     data["xabarlar"] = threads
     save_data(data)
+
+
+# ---- Arizalar holati (yuborilgan / qabul qilindi / rad etildi) ----
+ARIZA_STATUS_SENT = "yuborilgan"
+ARIZA_STATUS_ACCEPTED = "qabul_qilindi"
+ARIZA_STATUS_REJECTED = "rad_etildi"
+
+
+def set_ariza_status(thread_id, status):
+    data = load_data()
+    statuses = data.get("ariza_status", {})
+    statuses[thread_id] = status
+    data["ariza_status"] = statuses
+    save_data(data)
+
+
+def get_ariza_status(thread_id):
+    data = load_data()
+    return data.get("ariza_status", {}).get(thread_id, ARIZA_STATUS_SENT)
+
+
+def get_all_ariza_statuses():
+    data = load_data()
+    return data.get("ariza_status", {})
 
 
 # =====================================================================
@@ -1492,15 +1570,25 @@ if (not logged_in_anyhow) and st.session_state.page in ("bosh_sahifa", "royxat")
                             st.rerun()
         with tab2:
             with st.form("login_form"):
-                login_email = st.text_input(t("field_email"))
+                login_id = st.text_input(t("field_login_id"), placeholder=t("field_login_id_placeholder"))
                 login_pwd = st.text_input(t("field_password"), type="password")
                 login_submitted = st.form_submit_button(t("btn_submit_login"), type="primary")
                 if login_submitted:
                     data = load_data()
-                    email_norm = login_email.strip().lower()
-                    rec = data["users"].get(email_norm)
+                    id_norm = login_id.strip().lower()
+                    rec = data["users"].get(id_norm)
+                    if rec is None:
+                        # Email bo'yicha topilmadi — ism bo'yicha ham qidirib ko'ramiz
+                        name_matches = [r for r in data["users"].values() if r.get("name", "").strip().lower() == id_norm]
+                        if len(name_matches) == 1:
+                            rec = name_matches[0]
+                        elif len(name_matches) > 1:
+                            st.error(t("err_ambiguous_name"))
+                            rec = "AMBIGUOUS"
                     if rec is None:
                         st.error(t("err_not_registered"))
+                    elif rec == "AMBIGUOUS":
+                        pass
                     elif not rec.get("password_hash") or not verify_password(
                         login_pwd, rec.get("password_salt", ""), rec.get("password_hash", "")
                     ):
@@ -1551,7 +1639,9 @@ else:
                 st.rerun()
         st.divider()
 
-        if st.session_state.user is not None:
+        if st.session_state.user is not None or is_founder() or is_stats_admin():
+            # Oddiy foydalanuvchiga ko'rinadigan BARCHA bo'limlar admin/asoschiga
+            # ham xuddi shunday ko'rinadi (shaxsiy hisob bo'lmasa ham, ko'rish mumkin).
             nav = [
                 ("kabinet_bosh", t("nav_home")),
                 ("dashboard", t("nav_dashboard")),
@@ -1724,7 +1814,7 @@ else:
             st.caption(t("avg_rating").format(rating=f"{orta:.1f}", count=len(reytinglar)))
         if not track["darslar"]:
             st.info(t("no_lessons_yet"))
-        elif st.session_state.user is None:
+        elif st.session_state.user is None and not (is_founder() or is_stats_admin()):
             st.warning(t("login_to_view_lessons"))
         else:
             progress = st.session_state.kurs_progress[selected]
@@ -1743,25 +1833,26 @@ else:
                 foiz = 100
                 st.success(t("course_completed").format(percent=foiz))
                 st.info(t("certificate_text").format(track=track["name"], percent=foiz))
-                if f"notif_sent_{selected}" not in st.session_state:
-                    push_notification(st.session_state.user["email"], f"Tabriklaymiz! Siz \"{track['name']}\" kursini tugatdingiz va sertifikat qo'lga kiritdingiz.")
-                    st.session_state[f"notif_sent_{selected}"] = True
-                already_rated = any(r["email"] == st.session_state.user["email"] for r in reytinglar)
-                if not already_rated:
-                    with st.form(f"rate_{selected}"):
-                        st.markdown(f"#### {t('rate_course_heading')}")
-                        ball = st.slider(t("rating_label"), 1, 5, 5)
-                        sharh = st.text_area(t("review_label"))
-                        if st.form_submit_button(t("submit_rating")):
-                            cat_fresh = load_catalog()
-                            cat_fresh[YONALISH_KEY][selected].setdefault("reytinglar", []).append(
-                                {"email": st.session_state.user["email"], "ball": ball, "sharh": sharh}
-                            )
-                            save_catalog(cat_fresh)
-                            st.success(t("rating_thanks"))
-                            st.rerun()
-                if st.button(t("view_vacancies_btn"), type="primary"):
-                    goto("mijozlar")
+                if st.session_state.user is not None:
+                    if f"notif_sent_{selected}" not in st.session_state:
+                        push_notification(st.session_state.user["email"], f"Tabriklaymiz! Siz \"{track['name']}\" kursini tugatdingiz va sertifikat qo'lga kiritdingiz.")
+                        st.session_state[f"notif_sent_{selected}"] = True
+                    already_rated = any(r["email"] == st.session_state.user["email"] for r in reytinglar)
+                    if not already_rated:
+                        with st.form(f"rate_{selected}"):
+                            st.markdown(f"#### {t('rate_course_heading')}")
+                            ball = st.slider(t("rating_label"), 1, 5, 5)
+                            sharh = st.text_area(t("review_label"))
+                            if st.form_submit_button(t("submit_rating")):
+                                cat_fresh = load_catalog()
+                                cat_fresh[YONALISH_KEY][selected].setdefault("reytinglar", []).append(
+                                    {"email": st.session_state.user["email"], "ball": ball, "sharh": sharh}
+                                )
+                                save_catalog(cat_fresh)
+                                st.success(t("rating_thanks"))
+                                st.rerun()
+                    if st.button(t("view_vacancies_btn"), type="primary"):
+                        goto("mijozlar")
 
     # ---------------- TIL KURSLARI ----------------
     elif st.session_state.page == "til_kurslari":
@@ -1775,7 +1866,7 @@ else:
         st.write(til["desc"])
         if not til["darslar"]:
             st.info(t("no_lang_lessons_yet"))
-        elif st.session_state.user is None:
+        elif st.session_state.user is None and not (is_founder() or is_stats_admin()):
             st.warning(t("login_to_view_lessons"))
         else:
             progress = st.session_state.til_progress[selected]
@@ -1815,7 +1906,7 @@ else:
             korsatilgan = [v for v in korsatilgan if matn_filtr.lower() in v["lavozim"].lower() or matn_filtr.lower() in v["kompaniya"].lower()]
         if not korsatilgan:
             st.info(t("no_vacancy_found"))
-        if st.session_state.user is None:
+        if st.session_state.user is None and not (is_founder() or is_stats_admin()):
             st.warning(t("login_to_apply"))
         for v in korsatilgan:
             with st.container(border=True):
@@ -1855,6 +1946,7 @@ else:
                                 push_notification(u["email"], f"Arizangiz \"{v['lavozim']}\" ({v['kompaniya']}) uchun yuborildi.")
                                 thread_id = get_thread_id(u["email"], v["id"])
                                 send_message(thread_id, "sistema", f"Ariza qabul qilindi: {v['lavozim']} — {v['kompaniya']}. Savol-javob shu yerda davom etadi.")
+                                set_ariza_status(thread_id, ARIZA_STATUS_SENT)
                                 st.success(t("application_success"))
                                 st.session_state[f"ariza_form_{v['id']}"] = False
                                 st.rerun()
@@ -1913,6 +2005,29 @@ else:
                 thread_ids = list(all_threads.keys())
                 chosen = st.selectbox(t("choose_thread"), options=thread_ids,
                                        format_func=lambda tid: f"{tid.split('::')[0]} — {VAKANSIYA_NOMLARI.get(int(tid.split('::')[1]), tid.split('::')[1])}")
+                current_status = get_ariza_status(chosen)
+                status_options = [ARIZA_STATUS_SENT, ARIZA_STATUS_ACCEPTED, ARIZA_STATUS_REJECTED]
+                status_labels = {
+                    ARIZA_STATUS_SENT: t("status_sent"),
+                    ARIZA_STATUS_ACCEPTED: t("status_accepted"),
+                    ARIZA_STATUS_REJECTED: t("status_rejected"),
+                }
+                sc1, sc2 = st.columns([3, 1])
+                with sc1:
+                    new_status = st.selectbox(
+                        t("application_status_label"), options=status_options,
+                        index=status_options.index(current_status),
+                        format_func=lambda s: status_labels[s], key=f"status_select_{chosen}",
+                    )
+                with sc2:
+                    st.write("")
+                    st.write("")
+                    if st.button(t("update_status_btn"), key=f"update_status_btn_{chosen}", disabled=(new_status == current_status)):
+                        set_ariza_status(chosen, new_status)
+                        foydalanuvchi_email = chosen.split("::")[0]
+                        push_notification(foydalanuvchi_email, t("status_change_notification").format(status=status_labels[new_status]))
+                        send_message(chosen, "sistema", t("status_change_system_msg").format(status=status_labels[new_status]))
+                        st.rerun()
                 st.divider()
                 for m in all_threads[chosen]:
                     kimdan = t("from_admin_client") if m["from"] in ("sistema", "admin") else f"👤 {m['from']}"
@@ -1937,6 +2052,12 @@ else:
                     thread_ids = list(my_threads.keys())
                     chosen = st.selectbox(t("choose_thread"), options=thread_ids,
                                            format_func=lambda tid: VAKANSIYA_NOMLARI.get(int(tid.split("::")[1]), tid.split("::")[1]))
+                    _status_labels_user = {
+                        ARIZA_STATUS_SENT: t("status_sent"),
+                        ARIZA_STATUS_ACCEPTED: t("status_accepted"),
+                        ARIZA_STATUS_REJECTED: t("status_rejected"),
+                    }
+                    st.caption(f"{t('application_status_label')}: {_status_labels_user[get_ariza_status(chosen)]}")
                     st.divider()
                     for m in my_threads[chosen]:
                         kimdan = t("from_client_admin") if m["from"] in ("sistema", "admin") else t("you_label")
@@ -1966,80 +2087,83 @@ else:
             st.info(t("no_certificates"))
 
     # ---------------- SOZLAMALAR ----------------
-    elif st.session_state.page == "sozlamalar" and st.session_state.user is not None:
+    elif st.session_state.page == "sozlamalar":
         st.title(t("settings_title"))
-        with st.form("profile_form"):
-            new_name = st.text_input(t("field_name"), value=u["name"])
-            new_phone = st.text_input(t("field_phone"), value=u["phone"])
-            if st.form_submit_button(t("save_btn"), type="primary"):
-                if not is_valid_phone(new_phone):
-                    st.error(t("err_phone_invalid"))
-                else:
-                    st.session_state.user["name"] = new_name
-                    st.session_state.user["phone"] = new_phone
-                    save_current_user()
-                    st.success(t("profile_updated"))
-        st.divider()
+        if st.session_state.user is None:
+            st.info(t("settings_no_account_note"))
+        else:
+            with st.form("profile_form"):
+                new_name = st.text_input(t("field_name"), value=u["name"])
+                new_phone = st.text_input(t("field_phone"), value=u["phone"])
+                if st.form_submit_button(t("save_btn"), type="primary"):
+                    if not is_valid_phone(new_phone):
+                        st.error(t("err_phone_invalid"))
+                    else:
+                        st.session_state.user["name"] = new_name
+                        st.session_state.user["phone"] = new_phone
+                        save_current_user()
+                        st.success(t("profile_updated"))
+            st.divider()
 
-        st.markdown(f"### {t('change_password_heading')}")
-        with st.form("password_form"):
-            old_pwd = st.text_input(t("current_password"), type="password")
-            new_pwd1 = st.text_input(t("new_password"), type="password")
-            new_pwd2 = st.text_input(t("confirm_new_password"), type="password")
-            if st.form_submit_button(t("update_password_btn")):
-                data = load_data()
-                rec = data["users"].get(u["email"], {})
-                if not verify_password(old_pwd, rec.get("password_salt", ""), rec.get("password_hash", "")):
-                    st.error(t("err_wrong_current"))
-                elif len(new_pwd1) < 6:
-                    st.error(t("err_short_new"))
-                elif new_pwd1 != new_pwd2:
-                    st.error(t("err_mismatch_new"))
-                else:
-                    pw_hash, pw_salt = hash_password(new_pwd1)
-                    data["users"][u["email"]]["password_hash"] = pw_hash
-                    data["users"][u["email"]]["password_salt"] = pw_salt
-                    save_data(data)
-                    st.success(t("password_updated"))
-        st.divider()
+            st.markdown(f"### {t('change_password_heading')}")
+            with st.form("password_form"):
+                old_pwd = st.text_input(t("current_password"), type="password")
+                new_pwd1 = st.text_input(t("new_password"), type="password")
+                new_pwd2 = st.text_input(t("confirm_new_password"), type="password")
+                if st.form_submit_button(t("update_password_btn")):
+                    data = load_data()
+                    rec = data["users"].get(u["email"], {})
+                    if not verify_password(old_pwd, rec.get("password_salt", ""), rec.get("password_hash", "")):
+                        st.error(t("err_wrong_current"))
+                    elif len(new_pwd1) < 6:
+                        st.error(t("err_short_new"))
+                    elif new_pwd1 != new_pwd2:
+                        st.error(t("err_mismatch_new"))
+                    else:
+                        pw_hash, pw_salt = hash_password(new_pwd1)
+                        data["users"][u["email"]]["password_hash"] = pw_hash
+                        data["users"][u["email"]]["password_salt"] = pw_salt
+                        save_data(data)
+                        st.success(t("password_updated"))
+            st.divider()
 
-        st.markdown(f"### {t('portfolio_heading')}")
-        st.caption(
-            t("portfolio_caption").format(
-                formats=", ".join(sorted(ALLOWED_UPLOAD_EXT)),
-                maxmb=MAX_UPLOAD_MB,
+            st.markdown(f"### {t('portfolio_heading')}")
+            st.caption(
+                t("portfolio_caption").format(
+                    formats=", ".join(sorted(ALLOWED_UPLOAD_EXT)),
+                    maxmb=MAX_UPLOAD_MB,
+                )
             )
-        )
-        uploaded = st.file_uploader(t("upload_file_label"), type=["png", "jpg", "jpeg", "pdf"])
-        if uploaded is not None:
-            ext = os.path.splitext(uploaded.name)[1].lower()
-            size_mb = uploaded.size / (1024 * 1024)
-            if ext not in ALLOWED_UPLOAD_EXT:
-                st.error(t("err_file_type"))
-            elif size_mb > MAX_UPLOAD_MB:
-                st.error(t("err_file_size").format(maxmb=MAX_UPLOAD_MB, sizemb=f"{size_mb:.1f}"))
-            else:
-                safe_name = sanitize_filename(uploaded.name)
-                user_dir = os.path.join(PORTFOLIO_DIR, sanitize_filename(u["email"].replace("@", "_at_")))
-                os.makedirs(user_dir, exist_ok=True)
-                with open(os.path.join(user_dir, safe_name), "wb") as f:
-                    f.write(uploaded.getbuffer())
-                if safe_name not in st.session_state.portfolio:
-                    st.session_state.portfolio.append(safe_name)
-                    save_current_user()
-                st.success(t("uploaded_success"))
-        st.divider()
+            uploaded = st.file_uploader(t("upload_file_label"), type=["png", "jpg", "jpeg", "pdf"])
+            if uploaded is not None:
+                ext = os.path.splitext(uploaded.name)[1].lower()
+                size_mb = uploaded.size / (1024 * 1024)
+                if ext not in ALLOWED_UPLOAD_EXT:
+                    st.error(t("err_file_type"))
+                elif size_mb > MAX_UPLOAD_MB:
+                    st.error(t("err_file_size").format(maxmb=MAX_UPLOAD_MB, sizemb=f"{size_mb:.1f}"))
+                else:
+                    safe_name = sanitize_filename(uploaded.name)
+                    user_dir = os.path.join(PORTFOLIO_DIR, sanitize_filename(u["email"].replace("@", "_at_")))
+                    os.makedirs(user_dir, exist_ok=True)
+                    with open(os.path.join(user_dir, safe_name), "wb") as f:
+                        f.write(uploaded.getbuffer())
+                    if safe_name not in st.session_state.portfolio:
+                        st.session_state.portfolio.append(safe_name)
+                        save_current_user()
+                    st.success(t("uploaded_success"))
+            st.divider()
 
-        st.markdown(f"### {t('delete_account_heading')}")
-        confirm = st.checkbox(t("confirm_delete_checkbox"))
-        if st.button(t("delete_account_btn"), disabled=not confirm):
-            data = load_data()
-            if u["email"] in data["users"]:
-                del data["users"][u["email"]]
-                save_data(data)
-            st.session_state.user = None
-            goto("bosh_sahifa")
-            st.rerun()
+            st.markdown(f"### {t('delete_account_heading')}")
+            confirm = st.checkbox(t("confirm_delete_checkbox"))
+            if st.button(t("delete_account_btn"), disabled=not confirm):
+                data = load_data()
+                if u["email"] in data["users"]:
+                    del data["users"][u["email"]]
+                    save_data(data)
+                st.session_state.user = None
+                goto("bosh_sahifa")
+                st.rerun()
 
     # ---------------- ASOSCHI PANELI: YANGILIK/VIDEO JOYLASH ----------------
     elif st.session_state.page == "asoschi_panel" and is_founder():
@@ -2133,7 +2257,30 @@ else:
         else:
             data = load_data()
             users = data.get("users", {})
+
+            total_certs = 0
+            for rec in users.values():
+                for prog in rec.get("kurs_progress", {}).values():
+                    if prog and all(prog):
+                        total_certs += 1
+                for prog in rec.get("til_progress", {}).values():
+                    if prog and all(prog):
+                        total_certs += 1
+
+            statuses = get_all_ariza_statuses()
+            total_apps = sum(len(rec.get("arizalar", [])) for rec in users.values())
+            accepted_count = sum(1 for s in statuses.values() if s == ARIZA_STATUS_ACCEPTED)
+            rejected_count = sum(1 for s in statuses.values() if s == ARIZA_STATUS_REJECTED)
+            pending_count = sum(1 for s in statuses.values() if s == ARIZA_STATUS_SENT)
+
             st.metric(t("total_registered"), len(users))
+            st.markdown(f"### {t('admin_extra_stats_heading')}")
+            c1, c2, c3, c4 = st.columns(4)
+            c1.metric(t("stat_certificates"), total_certs)
+            c2.metric(t("stat_applications"), total_apps)
+            c3.metric(t("stat_accepted"), accepted_count)
+            c4.metric(t("stat_rejected"), rejected_count)
+            st.caption(f"{t('stat_pending')}: {pending_count}")
             st.divider()
             for email, rec in users.items():
                 with st.container(border=True):
